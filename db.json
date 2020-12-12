@@ -1,0 +1,201 @@
+{
+  "Recetas": [
+    {
+      "pacienteId": 1,
+      "body": "Tomar Paracetamol",
+      "costo": "$100",
+      "id": 1,
+      "medicoId": 2
+    },
+    {
+      "medicoId": 1,
+      "pacienteId": 1,
+      "body": "Toma Acetaminofem",
+      "costo": "$100",
+      "id": 2
+    },
+    {
+      "medicoId": 2,
+      "pacienteId": 1,
+      "body": "Tomar Dolex",
+      "costo": "$ 100",
+      "id": 3
+    }
+  ],
+  "Internos": [
+    {
+      "HabitacionId": 3,
+      "PacienteId": 2,
+      "date": "2019-10-25",
+      "medicoId": 1,
+      "id": 1
+    },
+    {
+      "HabitacionId": 2,
+      "PacienteId": 3,
+      "date": "2019-10-26",
+      "medicoId": 2,
+      "id": 2
+    },
+    {
+      "HabitacionId": 1,
+      "PacienteId": 4,
+      "date": "2019-10-26",
+      "medicoId": 1,
+      "id": 3
+    },
+    {
+      "HabitacionId": 2,
+      "PacienteId": 3,
+      "date": "2020-12-12",
+      "medicoId": 3,
+      "id": 4
+    },
+    {
+      "HabitacionId": 1,
+      "PacienteId": 6,
+      "date": "2020-12-12",
+      "medicoId": 1,
+      "id": 5
+    }
+  ],
+  "Pacientes": [
+    {
+      "picturesId": 1,
+      "pictures": null,
+      "PacienteId": 1,
+      "name": "Edgar Fuentes",
+      "Edad": "27 Años",
+      "Sexo": "Masculino",
+      "Asunto": "Tiene un caracter demasiado pesado",
+      "id": 1,
+      "Date": "2019-10-22"
+    },
+    {
+      "pictures": null,
+      "PacienteId": 2,
+      "name": "Arely Quantos",
+      "Edad": "28 Años",
+      "Sexo": "Femenino",
+      "Asunto": "Delirios de soledad",
+      "Date": "2019-10-23",
+      "id": 2
+    },
+    {
+      "pictures": null,
+      "name": "Jairo Lopez",
+      "Edad": "25 Años",
+      "Sexo": "Masculino",
+      "Asunto": "Revicion general",
+      "Date": "2019-10-09",
+      "id": 3
+    },
+    {
+      "pictures": null,
+      "name": "Itzuy soto",
+      "Edad": "36 Años",
+      "Sexo": "Masculino",
+      "Asunto": "Resfriado provocado por los vientos de Santa Ana",
+      "Date": "2019-10-24",
+      "id": 4
+    },
+    {
+      "pictures": {
+        "rawFile": {
+          "preview": "blob:http://localhost:3001/ffdb22ec-0604-4215-a315-227ba43d960b"
+        },
+        "src": "blob:http://localhost:3001/ffdb22ec-0604-4215-a315-227ba43d960b",
+        "title": "Avatar-02.png"
+      },
+      "id": 5,
+      "name": "Ruglas",
+      "Edad": "30 AÑOS",
+      "Sexo": "Masculino",
+      "Asunto": "Por Reumatismo",
+      "Date": "2020-12-09"
+    },
+    {
+      "name": "Jose Castro",
+      "Edad": "31 AÑOS",
+      "Sexo": "Masculino",
+      "Asunto": "Dolor de Cabesa",
+      "Date": "2020-12-12",
+      "id": 6
+    }
+  ],
+  "Habitaciones": [
+    {
+      "HabitacionId": 1,
+      "Habitacion": "A",
+      "Pizo": "1",
+      "id": 1
+    },
+    {
+      "HabitacionId": 2,
+      "Habitacion": "B",
+      "Pizo": "1",
+      "id": 2
+    },
+    {
+      "HabitacionId": 3,
+      "Habitacion": "C",
+      "Pizo": "1",
+      "id": 3
+    },
+    {
+      "Habitacion": "D",
+      "Pizo": "2",
+      "id": 4
+    }
+  ],
+  "Medicos": [
+    {
+      "medicoId": 1,
+      "name": "Edgar Fuentez",
+      "email": "Edgar@gmail.com",
+      "phone": "154614646",
+      "Title": "Medicina General",
+      "Edad": "27 Años",
+      "id": 1
+    },
+    {
+      "name": "Zack Efron",
+      "email": "Efron@gmail.com",
+      "phone": "6647956313",
+      "Title": "Medico Nefrologo",
+      "Edad": "45 Años",
+      "id": 2
+    },
+    {
+      "name": "Pepito Perez",
+      "email": "pperez@gmail.com",
+      "phone": "3219426175",
+      "Title": "Medico Internista",
+      "Edad": "30 AÑOS",
+      "id": 3
+    }
+  ],
+  "Medicamentos": [
+    {
+      "medicamento": "Paracetamol",
+      "date": "21/10/2020",
+      "body": "Luego se la argrego",
+      "cantidad": "500 Unidades",
+      "id": 1
+    },
+    {
+      "medicamento": "Acetazolamida",
+      "date": "21/10/2020",
+      "body": "Luego la coloco",
+      "cantidad": "200 Unidades",
+      "id": 2
+    },
+    {
+      "medicamento": "Acetilcisteina",
+      "date": "21/10/2020",
+      "body": "luego la coloco",
+      "cantidad": "1500 Unidades",
+      "id": 3
+    }
+  ]
+}
