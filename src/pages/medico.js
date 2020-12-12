@@ -19,7 +19,7 @@ export const MedList = props => (
             <TextField label="Registro" source="id" />
             <TextField label="Nombre Medico" source="name" />
             <EmailField label="Correo" source="email" />
-            <TextField label="Telefono" source="phone" />
+            <TextField sortable={false} label="Telefono" source="phone" />
             <TextField label="Ocupacin" source="Title" />
             <TextField label="Edad" source="Edad" />
             <EditButton />

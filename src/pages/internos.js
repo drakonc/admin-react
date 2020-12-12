@@ -21,7 +21,7 @@ const InternoFilter = (props) => (
 export const InternoList = props => (
     <List filters={<InternoFilter />} {...props}>
         <Datagrid>
-            <ReferenceField label="Habitacion" source="HabitacionId" reference="habitaciones">
+            <ReferenceField label="Habitacion" source="HabitacionId" reference="habitaciones" link={false}>
                 <TextField source="Habitacion" />
             </ReferenceField>
             <ReferenceField label="Nombre del Paciente" source="PacienteId" reference="pacientes">
