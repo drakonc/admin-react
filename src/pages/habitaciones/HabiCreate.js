@@ -8,7 +8,7 @@ const HabiTitle = ({ record }) => {
     );
 };
 
-const HabiActions = ({ basePath, data }) => (
+const HabiActions = ({ basePath }) => (
     <TopToolbar>
         <ListButton basePath={basePath} />
     </TopToolbar>

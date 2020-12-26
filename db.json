@@ -57,6 +57,13 @@
       "date": "2020-12-12",
       "medicoId": 1,
       "id": 5
+    },
+    {
+      "HabitacionId": 2,
+      "PacienteId": 4,
+      "date": "2020-12-26",
+      "medicoId": 2,
+      "id": 6
     }
   ],
   "Pacientes": [

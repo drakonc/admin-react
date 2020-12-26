@@ -1,12 +1,14 @@
 import React from 'react';
 import { Admin, Resource } from 'react-admin';
-import { RecList, RecEdit, RecCreate } from './pages/recetas';
-import { MedList, MedEdit, MedCreate } from './pages/medico';
-import { PacList, RegistroEdit, RegistroCreate } from './pages/pacientes';
-import { MediList, MediEdit, MediCreate } from './pages/medicamentos';
-import { InternoList, InternoEdit, InternoCreate } from './pages/internos';
-import { HabiList, HabiCreate, HabiEdit } from './pages/habitaciones/';
-import { Dashboard } from './pages/Dashboard';
+
+import { Dashboard } from './pages/dashboard/Dashboard';
+import { RecList, RecCreate, RecEdit } from './pages/recetas/'
+import { PacList, PacCreate, PacEdit } from './pages/pacientes/';
+import { MedList, MedCreate, MedEdit } from './pages/medico/'
+import { HabiList, HabiCreate } from './pages/habitaciones/';
+import { MediList, MediCreate, MediEdit } from './pages/medicamentos/'
+import { InternoList, InternoCreate, InternoEdit } from './pages/internos/';
+
 import jsonServerProvider from 'ra-data-json-server';
 import HabiIcon from '@material-ui/icons/AddLocation';
 import InterIcon from '@material-ui/icons/Hotel';
@@ -22,9 +24,9 @@ const dataProvider = jsonServerProvider('http://localhost:3000');
 const App = () => (
   <Admin dashboard={Dashboard} authProvider={authProvider} dataProvider={dataProvider} icon={DashIcon} >
     <Resource name="Recetas" list={RecList} edit={RecEdit} create={RecCreate} icon={PostIcon} />
-    <Resource name="pacientes" list={PacList} edit={RegistroEdit} create={RegistroCreate} icon={PaciIcon} />
+    <Resource name="pacientes" list={PacList} edit={PacEdit} create={PacCreate} icon={PaciIcon} />
     <Resource name="medicos" list={MedList} edit={MedEdit} create={MedCreate} icon={UserIcon} />
-    <Resource name="habitaciones" list={HabiList} edit={HabiEdit} create={HabiCreate} icon={HabiIcon} />
+    <Resource name="habitaciones" list={HabiList} create={HabiCreate} icon={HabiIcon} />
     <Resource name="medicamentos" list={MediList} edit={MediEdit} create={MediCreate} icon={MediIcon} />
     <Resource name="internos" list={InternoList} edit={InternoEdit} create={InternoCreate} icon={InterIcon} />
   </Admin>
