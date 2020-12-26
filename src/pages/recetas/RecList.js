@@ -1,5 +1,5 @@
 import React from 'react';
-import { Filter, ReferenceInput, SelectInput, TextInput, Edit, List, Datagrid, TextField, ReferenceField, EditButton } from 'react-admin';
+import { Filter, ReferenceInput, SelectInput, TextInput, List, Datagrid, TextField, ReferenceField, EditButton } from 'react-admin';
 
 const RecFilter = (props) => (
     <Filter {...props}>
